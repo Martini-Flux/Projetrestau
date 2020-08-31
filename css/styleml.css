@@ -1,0 +1,45 @@
+body
+{
+	width: 70%;
+	margin: auto;
+}
+#head
+{
+	text-align: center;
+	background-color: #61b98d;
+	color: #f5d928;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#foot
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #61b98d;
+	color: #f5d928;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	left: 0px;
+}
+.lien
+{
+	text-decoration: none;
+	font-family: 'Righteous', cursive;
+	color: #f5d928;
+}
+.footg
+{
+	margin-left: 2%;
+}
+.footd
+{
+	margin-right: 2%;
+}
+.ml
+{
+	margin-top: 12%;
+	margin-bottom: 12%;
+}
