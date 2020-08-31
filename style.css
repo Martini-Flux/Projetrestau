@@ -15,20 +15,44 @@ body
 .lienp
 {
 	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
 	color: black;
+
 }
 .liend
 {
 	text-decoration: none;
+	font-family: 'Lobster Two', cursive;
+}
+.chic
+{
+	color: to left(#c6730a, #c026e3)
+}
+.chic2
+{
+	color: #c6730a;
 }
 .lient
 {
 	text-decoration: none;
+	font-family: 'Parisienne', cursive;
+}
+.delice2
+{
+	color: #29c0e5;
 }
 .lienq
 {
 	text-decoration: none;
+	font-family: 'Satisfy', cursive;
 }
+.palette2
+{
+	color: #6bc483;
+}
+
+/* blocs */
+
 #head
 {
 	text-align: center;
@@ -45,6 +69,98 @@ body
 	justify-content: center;
 	text-align: center;
 	margin-top: 13%;
+}
+.menus1
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.carte
+{
+	box-shadow: 1px 1px 6px lightgrey;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 10%;
+	font-size: small;
+}
+.carte1
+{
+	background-color: #f1b4b4;
+	box-shadow: 1px 1px 6px lightgrey;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 10%;
+	font-size: small;
+}
+.carte2
+{
+	background-color: #fdf4fe;
+	box-shadow: 1px 1px 6px lightgrey;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 10%;
+	font-size: small;
+}
+.fa-music
+{
+	color: tomato;
+	font-size: 2rem;
+}
+#bouton
+{
+	text-align: center;
+	background-color: #61b98d;
+	margin-left: 35%;
+	margin-right: 35%;
+	font-size: 2em;
+	color: #f5d928;
+	border-radius: 10rem;
+	margin-bottom: 12%;
+}
+.charg
+{
+	display: flex;
+	justify-content: center;
+}
+#foot
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #61b98d;
+	color: #f5d928;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	left: 0px;
+}
+h4
+{
+	font-size: larger;
+}
+h3
+{
+	font-size: x-large;
+}
+h5
+{
+	font-size: x-large;
+}
+.footg
+{
+	margin-left: 2%;
+}
+.footd
+{
+	margin-right: 2%;
 }
 
 /* Animation */
@@ -106,111 +222,4 @@ body
   }
 }
 
-.note
-{
-	font-family: 'Dancing Script', cursive;
-}
-.delice
-{
-	font-family: 'Parisienne', cursive;
-}
-.chic
-{
-	font-family: 'Lobster Two', cursive;
-}
-.palette
-{
-	font-family: 'Satisfy', cursive;
-}
-.menus1
-{
-	display: flex;
-	flex-direction: column;
-	width: 25%;
-	margin-left: 2%;
-	margin-right: 2%;
-}
-.carte
-{
-	box-shadow: 1px 1px 6px lightgrey;
-	height: 20rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-bottom: 10%;
-	font-size: small;
-}
-.carte1
-{
-	background-color: #f1b4b4;
-	box-shadow: 1px 1px 6px lightgrey;
-	height: 20rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-bottom: 10%;
-	font-size: small;
-}
-.carte2
-{
-	background-color: #ece2f1;
-	box-shadow: 1px 1px 6px lightgrey;
-	height: 20rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-bottom: 10%;
-	font-size: small;
-}
-.fa-music
-{
-	color: tomato;
-	font-size: 2rem;
-}
-#bouton
-{
-	text-align: center;
-	background-color: #61b98d;
-	margin-left: 35%;
-	margin-right: 35%;
-	font-size: 2em;
-	color: #f5d928;
-	border-radius: 10rem;
-	margin-bottom: 12%;
-}
-.charg
-{
-	display: flex;
-	justify-content: center;
-}
-#foot
-{
-	display: flex;
-	justify-content: space-between;
-	background-color: #61b98d;
-	color: #f5d928;
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-	left: 0px;
-}
-h4
-{
-	font-size: larger;
-}
-h3
-{
-	font-size: x-large;
-}
-h5
-{
-	font-size: x-large;
-}
-.footg
-{
-	margin-left: 2%;
-}
-.footd
-{
-	margin-right: 2%;
-}
+/* fin des animations */
