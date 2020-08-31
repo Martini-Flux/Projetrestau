@@ -1,0 +1,105 @@
+body
+{
+	width: 70%;
+	margin: auto;
+	font-family: 'Dancing Script', cursive;
+}
+#head
+{
+	text-align: center;
+	background-color: #61b98d;
+	color: #f5d928;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.fa-music
+{
+	color: tomato;
+	font-size: 2rem;
+}
+#bloc
+{
+	background-color: #f1b4b4;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 15%;
+	margin-bottom: 10%;
+	margin-top: 13%;
+}
+.titre
+{
+	text-align: center;
+	margin-top: 5%;
+}
+h3
+{
+	font-size: xx-large;
+}
+h4
+{
+	font-size: larger;
+}
+h5
+{
+	font-size: larger;
+}
+.soustitre
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10%;
+	margin-right: 10%
+}
+.desc
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10%;
+	margin-right: 10%
+}
+.trait
+{
+	border-top: 2px solid black;
+	width: 18%;
+	margin-top: 2em;
+}
+.lien
+{
+	text-decoration: none;
+	font-family: 'Righteous', cursive;
+	color: #f5d928;
+}
+.lienf
+{
+	text-decoration: none;
+	color: #f5d928;
+}
+.titre2
+{
+	margin-bottom: 4%;
+	margin-top: 7%;
+	display: flex;
+	justify-content: center;
+}
+#foot
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #61b98d;
+	color: #f5d928;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	left: 0px;
+}
+.footg
+{
+	margin-left: 2%;
+}
+.footd
+{
+	margin-right: 2%;
+}
