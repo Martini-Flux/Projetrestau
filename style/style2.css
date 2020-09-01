@@ -1,7 +1,5 @@
 body
 {
-	width: 70%;
-	margin: auto;
 	font-family: 'Lobster Two', cursive;
 }
 #head
@@ -32,6 +30,9 @@ body
 h3
 {
 	font-size: xx-large;
+	background: linear-gradient(to right,#c6730a,#6013b8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 h4
 {
@@ -48,18 +49,20 @@ h5
 	display: flex;
 	justify-content: space-between;
 	margin-left: 10%;
-	margin-right: 10%
+	margin-right: 10%;
+	color: #c6730a;
 }
 .desc1
 {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 10%;
-	margin-right: 10%
+	margin-right: 10%;
+	color: #c6730a;
 }
 .trait1
 {
-	border-top: 2px solid black;
+	border-top: 2px solid #c6730a;
 	width: 18%;
 	margin-top: 2em;
 }
@@ -68,18 +71,20 @@ h5
 	display: flex;
 	justify-content: space-between;
 	margin-left: 10%;
-	margin-right: 10%
+	margin-right: 10%;
+	color: #a17cb0;
 }
 .desc2
 {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 10%;
-	margin-right: 10%
+	margin-right: 10%;
+	color: #a17cb0;
 }
 .trait2
 {
-	border-top: 2px solid black;
+	border-top: 2px solid #a17cb0;
 	width: 18%;
 	margin-top: 2em;
 }
@@ -88,18 +93,20 @@ h5
 	display: flex;
 	justify-content: space-between;
 	margin-left: 10%;
-	margin-right: 10%
+	margin-right: 10%;
+	color: #6013b8;
 }
 .desc3
 {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 10%;
-	margin-right: 10%
+	margin-right: 10%;
+	color: #6013b8;
 }
 .trait3
 {
-	border-top: 2px solid black;
+	border-top: 2px solid #6013b8;
 	width: 18%;
 	margin-top: 2em;
 }
@@ -134,13 +141,13 @@ h5
 	margin-right: 2%;
 }
 
-/* animations */
+/* soulignements */
 
-h4 {
+.st1 {
         display: inline;
         position: relative;   
 }
-h4:after {
+.st1:after {
     content: '';
     display: block;
     position: absolute;
@@ -149,11 +156,50 @@ h4:after {
     left: 0px;
     height: 2px;
     transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
-    background: black;
+    background: #c6730a;
 }
-    h4:hover:after {
+    .st1:hover:after {
         width: 100%;
     }
+.st2 {
+        display: inline;
+        position: relative;   
+}
+.st2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    width: 0%;
+    left: 0px;
+    height: 2px;
+    transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+    background: #a17cb0;
+}
+    .st2:hover:after {
+        width: 100%;
+    }
+.st3 {
+        display: inline;
+        position: relative;   
+}
+.st3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    width: 0%;
+    left: 0px;
+    height: 2px;
+    transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+    background: #6013b8;
+}
+    .st3:hover:after {
+        width: 100%;
+    }
+
+/* animations */
+
 .wiggle:hover { 
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; 
     transform: translate3d(0, 0, 0); 
