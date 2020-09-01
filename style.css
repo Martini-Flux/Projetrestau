@@ -1,9 +1,3 @@
-body
-{
-	width: 70%;
-	margin: auto;
-}
-
 /* liens */
 
 .lien
@@ -26,7 +20,9 @@ body
 }
 .chic
 {
-	color: to left(#c6730a, #c026e3)
+	background: linear-gradient(to right,#c6730a,#6013b8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .chic2
 {
@@ -37,6 +33,12 @@ body
 	text-decoration: none;
 	font-family: 'Parisienne', cursive;
 }
+.delice
+{
+	background: linear-gradient(to right,#181fb9,#29c0e5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .delice2
 {
 	color: #29c0e5;
@@ -45,6 +47,12 @@ body
 {
 	text-decoration: none;
 	font-family: 'Satisfy', cursive;
+}
+.palette
+{
+	background: linear-gradient(to right,#226c1f,#69fb62);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .palette2
 {
@@ -117,19 +125,14 @@ body
 }
 #bouton
 {
-	text-align: center;
 	background-color: #61b98d;
-	margin-left: 35%;
-	margin-right: 35%;
-	font-size: 2em;
 	color: #f5d928;
-	border-radius: 10rem;
+	border-radius: 5%;
+	margin: auto;
+	width: 170px;
 	margin-bottom: 12%;
-}
-.charg
-{
-	display: flex;
-	justify-content: center;
+	text-align: center;
+	margin-top: 3%;
 }
 #foot
 {
@@ -161,6 +164,11 @@ h5
 .footd
 {
 	margin-right: 2%;
+}
+.pro
+{
+	font-family: 'Righteous', cursive;
+	font-size: 23px;
 }
 
 /* Animation */
@@ -195,7 +203,6 @@ h5
     } 
 } 
 .charg {
-	margin-top: 10%;
   	font-size: 23px;
   	font-family: 'Righteous', cursive;
 }
