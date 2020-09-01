@@ -1,7 +1,5 @@
 body
 {
-	width: 70%;
-	margin: auto;
 	font-family: 'Parisienne', cursive;
 }
 #head
@@ -21,7 +19,7 @@ body
 	flex-direction: column;
 	margin-left: 15%;
 	margin-bottom: 15%;
-	margin-top: 13%;
+	margin-top: 10%;
 }
 .titre
 {
@@ -31,6 +29,9 @@ body
 h3
 {
 	font-size: 3rem;
+	background: linear-gradient(to right,#181fb9,#29c0e5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 h4
 {
@@ -55,9 +56,21 @@ h5
 	margin-left: 10%;
 	margin-right: 10%
 }
-.trait
+.trait1
 {
-	border-top: 2px solid black;
+	border-top: 2px solid #181fb9;
+	width: 18%;
+	margin-top: 2em;
+}
+.trait2
+{
+	border-top: 2px solid #0c69d2;
+	width: 18%;
+	margin-top: 2em;
+}
+.trait3
+{
+	border-top: 2px solid #29c0e5;
 	width: 18%;
 	margin-top: 2em;
 }
@@ -92,7 +105,7 @@ h5
 	margin-right: 2%;
 }
 
-/* animations */
+/* soulignements */
 
 h4 {
         display: inline;
@@ -113,6 +126,9 @@ h4:after {
     h4:hover:after {
         width: 100%;
     }
+
+/* animations */
+
 .wiggle:hover { 
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; 
     transform: translate3d(0, 0, 0); 
