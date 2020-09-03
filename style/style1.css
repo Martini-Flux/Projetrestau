@@ -146,3 +146,24 @@ h4:after {
     transform: translate3d(4px, 0, 0); 
     } 
 } 
+
+@media(max-width: 767px)
+{
+#bloc
+{
+	width: auto;
+	margin-top: 30%;
+	margin-bottom: 35%;
+	margin-left: 0%;
+}
+}
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: portrait)
+{
+#bloc
+{
+	width: auto;
+	margin-left: 0%;
+}
