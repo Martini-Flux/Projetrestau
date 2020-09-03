@@ -63,8 +63,8 @@ h5
 .trait1
 {
 	border-top: 2px solid #c6730a;
-	width: 18%;
-	margin-top: 2em;
+	width: 25%;
+	margin-top: 5%;
 }
 .soustitre2
 {
@@ -85,8 +85,8 @@ h5
 .trait2
 {
 	border-top: 2px solid #a17cb0;
-	width: 18%;
-	margin-top: 2em;
+	width: 25%;
+	margin-top: 5%;
 }
 .soustitre3
 {
@@ -107,8 +107,8 @@ h5
 .trait3
 {
 	border-top: 2px solid #6013b8;
-	width: 18%;
-	margin-top: 2em;
+	width: 25%;
+	margin-top: 5%;
 }
 .lien
 {
@@ -223,3 +223,39 @@ h5
     transform: translate3d(4px, 0, 0); 
     } 
 } 
+
+@media(max-width: 767px)
+{
+#bloc
+{
+	width: auto;
+	margin-top: 30%;
+	margin-bottom: 35%;
+	margin-left: 0%;
+}
+.trait1
+{
+	width: 15%;
+	margin-top: 13%;
+}
+.trait2
+{
+	width: 15%;
+	margin-top: 13%;
+}
+.trait3
+{
+	width: 15%;
+	margin-top: 13%;
+}
+}
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: portrait)
+{
+#bloc
+{
+	width: auto;
+	margin-left: 0%;
+}
