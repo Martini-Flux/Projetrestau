@@ -86,6 +86,14 @@
 	margin-left: 2%;
 	margin-right: 2%;
 }
+.menus2
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
 .carte
 {
 	box-shadow: 1px 1px 6px lightgrey;
@@ -229,4 +237,46 @@ h5
   }
 }
 
-/* fin des animations */
+/* telephones et tablettes */
+
+@media(max-width: 767px)
+{
+#menus
+{
+	margin-top: 32%;
+	flex-direction: column;
+}
+.menus1
+{
+	width: auto;
+}
+.menus2
+{
+	width: auto;
+}
+#bouton
+{
+	margin-bottom: 35%;
+}
+}
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: portrait)
+{
+#menus
+{
+	margin-top: 20%;
+}
+.menus1
+{
+	width: 40%;
+}
+.menus2
+{
+	width: 40%;
+}
+#bouton
+{
+	margin-bottom: 18%;
+}
