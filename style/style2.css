@@ -248,6 +248,18 @@ h5
 	width: 15%;
 	margin-top: 13%;
 }
+.desc1
+{
+	font-size: 11px;
+}
+.desc2
+{
+	font-size: 11px;
+}
+.desc3
+{
+	font-size: 11px;
+}
 }
 @media only screen
 and (min-width: 768px)
