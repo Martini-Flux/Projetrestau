@@ -178,3 +178,11 @@ and (orientation: portrait)
 	margin-left: 0%;
 }
 }
+@media(min-width: 1900px)
+{
+body
+{
+	width: 60%;
+	margin: auto;
+}
+}
