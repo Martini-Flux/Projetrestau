@@ -268,8 +268,21 @@ and (orientation: portrait)
 {
 #bloc
 {
-	width: auto;
-	margin-left: 0%;
+	width: 65%;
+	margin: auto;
+	margin-top: 22%;
+}
+.trait1
+{
+	margin-top: 7%;
+}
+.trait2
+{
+	margin-top: 7%;
+}
+.trait3
+{
+	margin-top: 7%;
 }
 }
 @media(min-width: 1900px)
