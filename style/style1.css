@@ -168,8 +168,9 @@ and (orientation: portrait)
 {
 #bloc
 {
-	width: auto;
-	margin-left: 0%;
+	width: 65%;
+	margin: auto;
+	margin-top: 15%;
 }
 }
 @media(min-width: 1900px)
