@@ -133,11 +133,12 @@
 }
 #bouton
 {
+	display: flex;
 	background-color: #61b98d;
 	color: #f5d928;
 	border-radius: 5%;
 	margin: auto;
-	width: 170px;
+	width: 187px;
 	margin-bottom: 12%;
 	text-align: center;
 	margin-top: 3%;
@@ -177,6 +178,7 @@ h5
 {
 	font-family: 'Righteous', cursive;
 	font-size: 23px;
+	margin-left: 3%;
 }
 
 /* Animation */
@@ -270,11 +272,11 @@ and (orientation: portrait)
 }
 .menus1
 {
-	width: 40%;
+	width: 28%;
 }
 .menus2
 {
-	width: 40%;
+	width: 28%;
 }
 #bouton
 {
