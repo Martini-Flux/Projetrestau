@@ -1,3 +1,303 @@
+/* blocs */
+
+#head
+{
+	text-align: center;
+	background-color: #61b98d;
+	color: #f5d928;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#foot
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #61b98d;
+	color: #f5d928;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	left: 0px;
+}
+.footleft
+{
+	margin-left: 2%;
+}
+.footright
+{
+	margin-right: 2%;
+}
+h4
+{
+	font-size: larger;
+}
+h3
+{
+	font-size: x-large;
+}
+h5
+{
+	font-size: x-large;
+}
+
+/* icones */
+
+.fa-music
+{
+	color: tomato;
+	font-size: 2rem;
+}
+/* index */
+
+#menus
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 13%;
+}
+.menus1
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.menus2
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.carte
+{
+	box-shadow: 1px 1px 6px lightgrey;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 10%;
+	font-size: small;
+}
+.carte1
+{
+	background-color: #f1b4b4;
+	box-shadow: 1px 1px 6px lightgrey;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 10%;
+	font-size: small;
+}
+.carte2
+{
+	background-color: #fdf4fe;
+	box-shadow: 1px 1px 6px lightgrey;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 10%;
+	font-size: small;
+}
+#bouton
+{
+	display: flex;
+	background-color: #61b98d;
+	color: #f5d928;
+	border-radius: 5%;
+	margin: auto;
+	width: 187px;
+	margin-bottom: 12%;
+	text-align: center;
+	margin-top: 3%;
+}
+.pro
+{
+	font-family: 'Righteous', cursive;
+	font-size: 23px;
+	margin-left: 3%;
+}
+
+/* mentions legales */
+
+.ml
+{
+	margin-top: 12%;
+	margin-bottom: 12%;
+}
+
+/* menus */
+
+.titre
+{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.soustitre
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10%;
+	margin-right: 10%
+}
+.desc
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10%;
+	margin-right: 10%
+}
+.trait
+{
+	border-top: 2px solid black;
+	width: 18%;
+	margin-top: 3em;
+}
+
+/* menu note */
+
+#blocnote
+{
+	font-family: 'Dancing Script', cursive;
+	background-color: #f1b4b4;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 15%;
+	margin-bottom: 15%;
+	margin-top: 13%;
+}
+.titrebas
+{
+	margin-bottom: 4%;
+	margin-top: 7%;
+	display: flex;
+	justify-content: center;
+}
+
+/* menu chic */
+
+#blocchic
+{
+	font-family: 'Lobster Two', cursive;
+	background-color: #fdf4fe;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 15%;
+	margin-bottom: 15%;
+	margin-top: 13%;
+}
+.tchic
+{
+	font-size: xx-large;
+	background: linear-gradient(to right,#c6730a,#6013b8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.pcolor
+{
+	color: #c6730a;
+}
+.ptrait
+{
+	border-top: 2px solid #c6730a;
+	width: 25%;
+	margin-top: 8%;
+}
+.dcolor
+{
+	color: #a17cb0;
+}
+.dtrait
+{
+	border-top: 2px solid #a17cb0;
+	width: 25%;
+	margin-top: 8%;
+}
+.tcolor
+{
+	color: #6013b8;
+}
+.ttrait
+{
+	border-top: 2px solid #6013b8;
+	width: 25%;
+	margin-top: 8%;
+}
+
+/* menu delice */
+
+#blocdelice
+{
+	font-family: 'Parisienne', cursive;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 15%;
+	margin-bottom: 15%;
+	margin-top: 10%;
+}
+.tdelice
+{
+	font-size: 3rem;
+	background: linear-gradient(to right,#181fb9,#29c0e5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.deliceun
+{
+	border-top: 2px solid #181fb9;
+	width: 18%;
+	margin-top: 8%;
+}
+.delicedeux
+{
+	border-top: 2px solid #0c69d2;
+	width: 18%;
+	margin-top: 8%;
+}
+.delicetrois
+{
+	border-top: 2px solid #29c0e5;
+	width: 18%;
+	margin-top: 8%;
+}
+
+/* menu palette */
+
+#blocpalette
+{
+	font-family: 'Satisfy', cursive;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 15%;
+	margin-bottom: 15%;
+	margin-top: 10%;
+}
+.tpalette
+{
+	font-size: 3rem;
+	background: linear-gradient(to right,#226c1f,#69fb62);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.traitpal
+{
+	border-top: 2px solid #69fb62;
+	width: 18%;
+	margin-top: 8%;
+}
+
 /* liens */
 
 .lien
@@ -59,128 +359,6 @@
 	color: #6bc483;
 }
 
-/* blocs */
-
-#head
-{
-	text-align: center;
-	background-color: #61b98d;
-	color: #f5d928;
-	width: 100%;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-}
-#menus
-{
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	margin-top: 13%;
-}
-.menus1
-{
-	display: flex;
-	flex-direction: column;
-	width: 25%;
-	margin-left: 2%;
-	margin-right: 2%;
-}
-.menus2
-{
-	display: flex;
-	flex-direction: column;
-	width: 25%;
-	margin-left: 2%;
-	margin-right: 2%;
-}
-.carte
-{
-	box-shadow: 1px 1px 6px lightgrey;
-	height: 20rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-bottom: 10%;
-	font-size: small;
-}
-.carte1
-{
-	background-color: #f1b4b4;
-	box-shadow: 1px 1px 6px lightgrey;
-	height: 20rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-bottom: 10%;
-	font-size: small;
-}
-.carte2
-{
-	background-color: #fdf4fe;
-	box-shadow: 1px 1px 6px lightgrey;
-	height: 20rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-bottom: 10%;
-	font-size: small;
-}
-.fa-music
-{
-	color: tomato;
-	font-size: 2rem;
-}
-#bouton
-{
-	display: flex;
-	background-color: #61b98d;
-	color: #f5d928;
-	border-radius: 5%;
-	margin: auto;
-	width: 187px;
-	margin-bottom: 12%;
-	text-align: center;
-	margin-top: 3%;
-}
-#foot
-{
-	display: flex;
-	justify-content: space-between;
-	background-color: #61b98d;
-	color: #f5d928;
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-	left: 0px;
-}
-h4
-{
-	font-size: larger;
-}
-h3
-{
-	font-size: x-large;
-}
-h5
-{
-	font-size: x-large;
-}
-.footg
-{
-	margin-left: 2%;
-}
-.footd
-{
-	margin-right: 2%;
-}
-.pro
-{
-	font-family: 'Righteous', cursive;
-	font-size: 23px;
-	margin-left: 3%;
-}
-
 /* Animation */
 
 .zoom {
@@ -238,6 +416,25 @@ h5
     width: 1.25em;    
   }
 }
+h5 {
+        display: inline;
+        position: relative;   
+}
+
+h5:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    width: 0%;
+    left: 0px;
+    height: 2px;
+    transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+    background: black;
+}
+    h5:hover:after {
+        width: 100%;
+    }
 
 /* telephones et tablettes */
 
@@ -260,6 +457,87 @@ h5
 {
 	margin-bottom: 35%;
 }
+.ml
+{
+	margin-top: 35%;
+	margin-bottom: 35%;
+}
+h5
+{
+	font-size: initial;
+}
+#blocnote
+{
+	width: auto;
+	margin-top: 30%;
+	margin-bottom: 35%;
+	margin-left: 0%;
+}
+#blocchic
+{
+	width: auto;
+	margin-top: 30%;
+	margin-bottom: 35%;
+	margin-left: 0%;
+}
+#blocdelice
+{
+	width: auto;
+	margin-top: 20%;
+	margin-bottom: 35%;
+	margin-left: 0%;
+}
+#blocpalette
+{
+	width: auto;
+	margin-top: 20%;
+	margin-bottom: 35%;
+	margin-left: 0%;
+}
+.desc
+{
+	font-size: 11px;
+}
+.trait
+{
+	width: 15%;
+	margin-top: 13%;
+}
+.ptrait
+{
+	width: 15%;
+	margin-top: 13%;
+}
+.dtrait
+{
+	width: 15%;
+	margin-top: 13%;
+}
+.ttrait
+{
+	width: 15%;
+	margin-top: 13%;
+}
+.deliceun
+{
+	width: 15%;
+	margin-top: 13%;
+}
+.delicedeux
+{
+	width: 15%;
+	margin-top: 13%;
+}
+.delicetrois
+{
+	width: 15%;
+	margin-top: 13%;
+}
+.traitpal
+{
+	width: 15%;
+	margin-top: 13%;
+}
 }
 @media only screen
 and (min-width: 768px)
@@ -281,6 +559,64 @@ and (orientation: portrait)
 #bouton
 {
 	margin-bottom: 18%;
+}
+.ml
+{
+	
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+#blocnote
+{
+	width: 65%;
+	margin: auto;
+	margin-top: 15%;
+}
+#blocchic
+{
+	width: 65%;
+	margin: auto;
+	margin-top: 22%;
+}
+#blocdelice
+{
+	width: 65%;
+	margin: auto;
+	margin-top: 15%;
+}
+#blocpalette
+{
+	width: 65%;
+	margin: auto;
+	margin-top: 15%;
+}
+.ptrait
+{
+	margin-top: 7%;
+}
+.dtrait
+{
+	margin-top: 7%;
+}
+.ttrait
+{
+	margin-top: 7%;
+}
+.deliceun
+{
+	margin-top: 7%;
+}
+.delicedeux
+{
+	margin-top: 7%;
+}
+.delicetrois
+{
+	margin-top: 7%;
+}
+.traitpal
+{
+	margin-top: 12%;
 }
 }
 @media(min-width: 1900px)
